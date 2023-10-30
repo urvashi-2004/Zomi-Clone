@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: rgba(4, 3, 3, 0.908);
+}
+/* navbar section starts */
+nav{
+    background-color: rgba(4, 3, 3, 0.23);
+}
+.navbar .navbar-brand{
+    color: white;
+}
+.navbutton{
+    visibility: hidden;
+}
+.image{
+    padding: 0px 1em;
+    display: flex;
+}
+.navbar .nav-link{
+    color: rgba(255, 255, 255, 0.633);
+}
+.navbar .navbar-nav{
+    padding-left: 5em;
+}
+.navbar .nav-item{
+    padding-left: 1.5em;
+}
+.left-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3em;
+}
+.part1{
+    margin-right: 20px;
+}
+.part2{
+    margin-right: 10px;
+}
+.btn1,.btn4{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color:rgba(60, 244, 183, 0.685);
+    padding: 8px 20px;
+}
+.btn1:hover, .btn4:hover{
+    background-color: rgba(60, 244, 183, 0.488);
+}
+.btn2{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color:transparent;
+    padding: 8px 20px;
+    border: 1px solid rgba(245, 245, 245, 0.11);
+    border-radius: 5px;
+}
+.btn2:hover{
+    background-color:rgba(128, 124, 124, 0.077);
+}
+.btn3{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color:transparent;
+    padding: 8px 20px;
+    border: 1px solid rgba(245, 245, 245, 0.11);
+    border-radius: 5px;
+}
+.btn3:hover{
+    background-color:rgba(128, 124, 124, 0.077);
+}
+/* navbar section ends  */
+
+
+
+/* main section starts */
+.main-container{
+    color: white;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.section1, .section2{
+    margin-top: 4em;
+}
+.section1-heading, .section2-heading{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+.section1-title, .section2-title{
+    font-size: 18px;
+    width: 350px;
+    color:darkgrey;
+}
+.section1-boxes, .section2-boxes{
+    margin-top: 1em;
+    display: flex; 
+}
+.section1-box1, .section1-box2{
+    width: 600px;
+    margin-right: 20px;
+    padding: 5px 20px;
+    border: 1px solid rgba(245, 245, 245, 0.238);
+    border-radius: 5px;
+    background-color: rgb(20, 18, 18);
+}
+.section1-part1-heading{
+    font-size: 20px;
+    color: white;
+}
+.section1-left-part{
+    float: left;
+    color: rgba(245, 245, 245, 0.515);
+}
+.section1-right-part{
+    float: right;
+}
+.section2-box1{
+    width: 700px;
+    margin-right: 20px;
+    padding: 5px 20px;
+    border: 1px solid rgba(245, 245, 245, 0.238);
+    border-radius: 5px;
+    margin-bottom: 1em;  
+    background-color: rgb(20, 18, 18);
+
+}
+.section2-box2{
+    width: 700px;
+    padding: 5px 20px;
+    border: 1px solid rgba(245, 245, 245, 0.238);
+    border-radius: 5px;
+    margin-bottom: 1em;
+    background-color: rgb(20, 18, 18);
+
+}
+.section2-part1-heading{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    width: 350px;
+}
+.section2-part1-content{
+    display: flex;
+}
+.section2-part1-content-value1{
+    display: flex;    
+}
+.section2-part1-content-value2{
+    padding: 0px 0px 0px 0px; 
+}
+.section2-left-part{
+    margin-right: 9em;
+}
+.section2-right-part{
+    margin-right: 3em;
+    text-align: right;
+}
+.section2-left-part-box2{
+    margin-right: 5em;
+}
+table{
+   border: 1px solid grey;
+}
+.table-heading{
+    border: 1px solid gray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px 0px 0px 10px;
+}
+.token-head{
+    font-weight:lighter;
+    font-size: 15px;
+}
+.subname{
+    color: rgba(179, 171, 171, 0.896);
+    font-weight: lighter;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+}
+.token-image{
+    display: flex;
+}
+.token-name{
+    margin-left: 10px;
+}
+/* main section ends  */
+
+
+
+/* footer section starts */
+footer{
+    margin-top: 3em;
+    text-align: center;
+}
+.footer-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title1{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.twitter,.medium, .github, .telegram, .linkedin{
+    color: grey;
+    font-size: 30px;
+}
+.twitter:hover,.medium:hover, .github:hover, .telegram:hover, .linkedin:hover{
+    color: white;
+}
+.btn{
+    color: white;
+    font-size: 25px;
+    margin-right: 1em;
+}
+.footer-title2-content{
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 16px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+/* footer section ends   */

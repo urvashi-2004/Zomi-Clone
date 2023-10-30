@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: rgba(4, 3, 3, 0.908);
+}
+/* navbar section starts */
+nav{
+    background-color: rgba(4, 3, 3, 0.23);
+}
+.navbar .navbar-brand{
+    color: white;
+}
+.navbutton{
+    visibility: hidden;
+}
+.image{
+    padding: 0px 1em;
+    display: flex;
+}
+.navbar .nav-link{
+    color: rgba(255, 255, 255, 0.633);
+}
+.navbar .navbar-nav{
+    padding-left: 5em;
+}
+.navbar .nav-item{
+    padding-left: 1.5em;
+}
+.left-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3em;
+}
+.part1{
+    margin-right: 20px;
+}
+.part2{
+    margin-right: 10px;
+}
+.btn1,.btn4{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color:rgba(60, 244, 183, 0.685);
+    padding: 8px 20px;
+}
+.btn1:hover, .btn4:hover{
+    background-color: rgba(60, 244, 183, 0.488);
+}
+.btn2{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color:transparent;
+    padding: 8px 20px;
+    border: 1px solid rgba(245, 245, 245, 0.11);
+    border-radius: 5px;
+}
+.btn2:hover{
+    background-color:rgba(128, 124, 124, 0.077);
+}
+.btn3{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color:transparent;
+    padding: 8px 20px;
+    border: 1px solid rgba(245, 245, 245, 0.11);
+    border-radius: 5px;
+}
+.btn3:hover{
+    background-color:rgba(128, 124, 124, 0.077);
+}
+/* navbar section ends  */
+
+
+
+/* main section starts */
+.main-container{
+    color:white;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 2em;
+}
+
+.section1, .section2{
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+.section1-heading2, .section2-heading2{
+    color: grey;
+    font-weight: 600;
+}
+.section1-heading1, .section2-heading1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.section1-content, .section2-content{
+    display: grid;
+}
+.section1-content-part1, .section1-content-part2,
+.section2-content-part1, .section2-content-part2{
+    display: flex;
+}
+.section1-content-part1-box1, .section1-content-part1-box2,
+.section1-content-part2-box1, .section1-content-part2-box2,
+.section2-content-part1-box1, .section2-content-part2-box2{
+    width: 600px;
+    margin-right: 1em;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.section1-part1-row1, .section1-part1-row2, .section1-part1-row3, .section1-part2-row1,
+.section1-part2-row1, .section1-part2-row2, .section1-part2-row3,
+.section2-part1-row1, .section2-part2-row1{
+    display: flex;
+}
+.section1-right-part1, .section1-right-part11{
+   text-align: right;
+   margin-left: 27em;
+} 
+.section1-right-part2, .section1-right-part22{
+    text-align: right;
+    margin-left: 22.5em;
+ } 
+ .section1-right-part3{
+    text-align: right;
+    margin-left: 22em;
+ } 
+ .section1-right-part33{
+    text-align: right;
+    margin-left: 18em;
+ }
+ .section2-right-part1{
+    text-align: right;
+    margin-left: 20em;
+ }
+ .section2-right-part2{
+    text-align: right;
+    margin-left: 20em;
+ }
+
+ .section1-part2-right-part1{
+    margin-left: 28em;
+    text-align: right;
+ }
+ .section1-part2-right-part2{
+    margin-left:30.5em;
+ }
+.section1-part2-right-part3{
+    margin-left: 25.5em;
+}
+.buy-button{
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(60, 244, 183, 0.685);
+    padding: 7px 10px;
+    color: whitesmoke;
+}
+.buy-button:hover{
+background-color: rgba(60, 244, 183, 0.488);
+}
+/* main section ends */
+
+
+
+/* footer section starts */
+footer{
+    margin-top: 3em;
+    text-align: center;
+}
+.footer-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title1{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.twitter,.medium, .github, .telegram, .linkedin{
+    color: grey;
+    font-size: 30px;
+}
+.twitter:hover,.medium:hover, .github:hover, .telegram:hover, .linkedin:hover{
+    color: white;
+}
+.btn{
+    color: white;
+    font-size: 25px;
+    margin-right: 1em;
+}
+.footer-title2-content{
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 16px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+/* footer section ends */
